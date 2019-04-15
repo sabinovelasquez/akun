@@ -6,8 +6,8 @@
         p.font-weight-light
           .subheading Chilean International Importer
         p
-          v-btn.white--text(color='grey darken-4', large)
-            | Contact
+          v-btn.white--text(color='grey darken-4', large, href='mailto:sabino@akun.cl')
+            | Contact Us
             v-icon(right) email
 
 </template>
