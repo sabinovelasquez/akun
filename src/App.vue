@@ -1,15 +1,18 @@
 <template lang='pug'>
   v-app
     Landing
+    Footer
 </template>
 
 <script>
 import Landing from './components/Landing'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    Landing
+    Landing,
+    Footer
   },
   data () {
     return {
